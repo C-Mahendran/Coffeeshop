@@ -1,0 +1,55 @@
+.contact{
+    height:100vh;
+    background-color: black;
+}
+.submit{
+    align-items: center;
+    border-radius:30px;
+    width:30%;
+    padding:10px;
+}  
+.submit:hover{
+    border:20px;
+    padding:10px;
+    width:30%;
+    color:rgb(31, 30, 30);
+    box-sizing: border-box;
+    background-color:rgb(141, 229, 225);
+    cursor: pointer;
+}  
+.map,.mail,.call{
+  color:rgb(255, 255, 255);
+  }
+
+.map:hover{
+  color:rgb(141, 229, 225);
+  box-shadow:-1px -2px 10px cyan;
+}
+.mail:hover{
+  color:rgb(141, 229, 225);
+}
+.call:hover{
+  color:rgb(141, 229, 225);
+}
+
+@media only screen and (max-width:1024px) {
+    .contact{
+        height:61rem;
+        background-color: black;
+    }  
+    .submit{
+        border-radius:30px;
+        width:40%;
+        padding:1px;
+    }  
+    .submit:hover{
+        border: 30px;
+        padding: 10px;
+        width:40%;
+        color:white;
+        background-color:rgb(97, 75, 75);
+        cursor: pointer;
+    }   
+}
+
+

@@ -1,0 +1,186 @@
+/* 
+.my-component {
+  /* background-image: url('coffee/img/coffee1.jpg'); */
+  /*background-image: url('C:\Users/admin/coffee-shop/src/coffee/img/coffee1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  align-items: center;
+  padding:13rem;
+  font-style: italic;
+  color:rgb(238, 235, 232);
+ 
+}
+.homecontent{
+  font-size: 30px;
+  font-style: italic;
+  font-weight:bold;  
+}
+
+.homeani{
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  animation: scroll 5s  2S infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translate(100%);
+    color:gold;
+  }
+
+  100%{
+    transform: translate(-100%);
+   color: azure;
+
+  }
+}
+@media only screen and (max-width:768px) {
+  .my-component{
+    height:100%;
+    padding:9rem;
+  }
+  .homecontent{
+    font-weight: bold;
+    font-size: 15px;
+    padding-right:30rem;
+    position: relative;
+  }
+  .homeani {
+    font-size: 14px;
+    white-space:nowrap;
+    animation:scroll 2s 1s infinite;
+  }
+} */
+.my-component {
+  background-image: url('D:/coffee-shop/src/coffee/img/coffee1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  overflow-y: hidden;
+  color: rgb(238, 235, 232);
+  animation: 4s 4s backimg infinite;
+}
+@keyframes backimg {
+  0%{
+   background-image: url('D:/coffee-shop/src/coffee/img/coffee1.jpg');
+  }
+  25%{
+    background-image: url('D:/coffee-shop/src/coffee/img/sebastianshop.jpg');
+  }
+  50%{
+ 
+    background-image: url('D:/coffee-shop/src/coffee/img/baristacoffee.jpg');
+  }
+  75%{
+    background-image: url('D:/coffee-shop/src/coffee/img/coffee8.jpg');
+  }
+  100%{
+    background-image: url('D:/coffee-shop/src/coffee/img/coffee1.jpg');
+    }
+}
+.homeani{
+  width: 100%;
+  box-sizing: border-box;
+  animation: scroll 10s 2s infinite;
+}
+.homecontent{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+ @keyframes scroll {
+  0% {
+    transform: translateX(100%);
+    color: gold;
+  }
+100% {
+    transform: translateX(-25%);
+    color: azure;
+  }
+} 
+/* MENU................*/ 
+.menu-order{
+text-decoration: none;
+font-size: 20px;
+border-color: aliceblue;
+border-radius:20px;
+border:none;
+padding: 7px;
+}
+.menuord{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+
+}
+/* .menums{
+  background-color: antiquewhite;
+  animation:7s 6s menusection infinite;
+}
+@keyframes menusection{
+  0%{
+    background-color: black;
+  }
+  50%{
+    background-color: rgb(101, 91, 78);
+  }
+  100%{
+    background-color: darkslategray;
+  }
+} */
+
+
+@media only screen and (max-width:1024px) {
+.my-component{
+width: 100%;
+display: flex;
+justify-content: center;
+background-position: center;
+}
+.homecontent {
+    font-size: 20px;
+
+  }
+.homeani{
+    white-space: wrap;
+    font-size: 14px; 
+    overflow: hidden;
+    animation: scroll 1s 1s inherit; 
+  }
+   @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+      color: gold;
+   
+    }
+  100%{
+      transform: translateX(5%);
+      color: azure;
+   
+    } 
+   }
+  .menu-section{
+    width: 100%;
+  }
+  .menu-order{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    border:none;
+  }
+}
+.price {
+  font-weight: bold;         
+  color: #f39c12;          
+  margin-left: 10px;          
+}  
+.menu-order:hover{
+  background-color: rgb(150, 185, 244);
+  cursor: pointer;
+  box-shadow:-2px -3px 30px rgb(24, 127, 201) ;
+}
