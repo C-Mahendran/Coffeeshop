@@ -1,7 +1,6 @@
 
 #about-section { 
     overflow: hidden;
-    /* align-items: center; */
     background: linear-gradient(40deg, rgb(50, 33, 33), rgb(75, 40, 33), black);
   }
   .abouthead {
@@ -35,8 +34,6 @@
   }
   @media only screen and ( max-width:1024px) {
     .img1, .img2, .img3, .img4, .img5, .img6 {
-      /* padding-left: 4rem; */
-      /* height:200px; */
       padding:5px;
       width:100%;
     } 
@@ -44,16 +41,6 @@
        
 }
   }
-  /* .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1050;
-  }
-  */
   .modal-dialog {
     position: absolute;
     top: 30%;
@@ -64,14 +51,8 @@
   }
   .modal-content {
     background-color: rgb(181, 20, 20);
-    /* padding: 20px; */
     border-radius: 8px;
   }
-  
-  /* .modal-body img {
-    width: 100%;
-    height: auto;
-  } */
     .close {
     position: absolute;
     top: 10px;

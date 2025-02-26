@@ -117,21 +117,6 @@ padding: 7px;
   color:rgb(0, 0, 0);
 
 }
-/* .menums{
-  background-color: antiquewhite;
-  animation:7s 6s menusection infinite;
-}
-@keyframes menusection{
-  0%{
-    background-color: black;
-  }
-  50%{
-    background-color: rgb(101, 91, 78);
-  }
-  100%{
-    background-color: darkslategray;
-  }
-} */
 
 
 @media only screen and (max-width:1024px) {
