@@ -1,8 +1,7 @@
 /* service */
 .service{
-    /* background-image:url('coffee/img/coffee9.jpeg'); */
     background-image:url('img/coffee9.jpeg');
-    height:100vh;
+    /* height:100vh; */
     background-size:cover;
     align-items: center;
     background-repeat:no-repeat;
@@ -15,17 +14,17 @@
     font-style:italic;
   color:rgb(236, 212, 79);
   text-align: center;
-  animation: 4s 4s change infinite;
+  /* animation: 4s 4s change infinite; */
   }
   .serpara{
     font-size:15px;
    font-style: italic;
     color: #cbcbcb;
   }
-  @keyframes change{
+  /* @keyframes change{
     0%{
       font-size:15px;
-      /* background-image: url('coffee/img/cofee2.jpg'); */
+    
       background-image: url('img/cofee2.jpg');
       height: 100vh;
     }
@@ -41,7 +40,7 @@
     100%{
       font-size: 30px;
     }
-  }
+  } */
 
    .service1{
     padding:10px;
@@ -76,7 +75,7 @@
 .servicehead{
     padding:3rem;
     margin-top: 30px;
-    height:100vh;
+    /* height:100vh; */
     width:100%;
     animation: 4s 4s change infinite;
 }
