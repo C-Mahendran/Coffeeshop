@@ -1,11 +1,11 @@
 /* service */
 .service{
     background-image:url('img/coffee9.jpeg');
-    /* height:100vh; */
     background-size:cover;
     align-items: center;
     background-repeat:no-repeat;
     width: 100%;
+    height:100%;
     z-index:0;
    }
   .servicehead{
@@ -41,7 +41,12 @@
       font-size: 30px;
     }
   } */
-
+@media only screen and (max-width:1400px) {
+  .service{
+  
+    padding-bottom:1px;
+   }
+}
    .service1{
     padding:10px;
     text-align: center;
