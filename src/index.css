@@ -24,6 +24,8 @@ nav {
 .logo {
   font-size: 20px;
   font-weight: bold;
+  /* background: linear-gradient(rgb(49, 76, 89),rgb(107, 107, 81),rgb(95, 135, 137)); */
+  font-style:italic;
 }
 
 .log {

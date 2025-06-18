@@ -24,27 +24,11 @@
   .about {
     width: 100%;
   }
-  
-  @media only screen and (max-width:626px) {
-    .img1, .img2, .img3, .img4, .img5, .img6 {
-        padding:10px;
-        height:200px;
-        width:100%;
-    }  
-  }
-  @media only screen and ( max-width:1024px) {
-    .img1, .img2, .img3, .img4, .img5, .img6 {
-      padding:5px;
-      width:100%;
-    } 
-  .img1, .img2, .img3, .img4, .img5, .img6 {
-       
-}
-  }
-  .modal-dialog {
+ 
+ .modal-dialog {
     position: absolute;
     top: 30%;
-    left: 0;
+    left: 0%;
     transform: translate(-50%, -50%);
     max-width: 90%;
     height:10vh;
@@ -62,3 +46,25 @@
     cursor: pointer;
   }
   
+
+  @media only screen and (max-width:626px) {
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+        padding:10px;
+        height:200px;
+        width:100%;
+    }  
+  }
+  @media only screen and ( max-width:1024px) {
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+      padding:5px;
+      width:100%;
+    } 
+  .img1, .img2, .img3, .img4, .img5, .img6 {
+       
+}
+.modal-dialog {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+  }

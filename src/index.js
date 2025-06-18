@@ -22,7 +22,7 @@ function App() {
       <div>
         <nav>
           <div className="logo">
-            <Link className="log" to="/" onClick={handleClose}>Logo</Link>
+            <Link className="log" to="/" onClick={handleClose}>CoffeeShop</Link>
           </div>
 
           {/* Hamburger Menu Toggle Button */}

@@ -59,15 +59,13 @@ import Coffee7 from './img/coffee7.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function About() {
-  // State to store the selected image
+
   const [selectedImage, setSelectedImage] = useState(null);
 
-  // Function to handle image click
   const handleImageClick = (image) => {
     setSelectedImage(image);
   };
 
-  // Function to close the modal
   const handleCloseModal = () => {
     setSelectedImage(null);
   };
@@ -118,8 +116,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      {/* Modal for the clicked image */}
       {selectedImage && (
         <div className="modal" style={{ display: 'block' }} onClick={handleCloseModal}>
           <div className="modal-dialog" onClick={(e) => e.stopPropagation()}>
